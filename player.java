@@ -1,5 +1,7 @@
 package week06FINALPROJECT;
 
-public class player {
+public class Player {
+	
+
 
 }
