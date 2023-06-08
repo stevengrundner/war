@@ -39,4 +39,9 @@ public class Card {
 		System.out.println(this.name + " of " + this.suit + ": " + this.value);
 		
 	}
-}
+
+	
+	}
+
+	
+	

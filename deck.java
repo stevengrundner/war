@@ -17,10 +17,8 @@ public class Deck {
 				Card card = new Card(number, suit, count);
 				this.cards.add(card);
 				count++;
-				
 			}
 		}
-		
 	}
 
 	public List<Card> getCards() {
@@ -45,6 +43,14 @@ public class Deck {
 		Card card = this.cards.remove(0);
 		return card;
 		
+	
 		
 	}
-}
+
+	
+		
+	}
+		
+		
+	
+
