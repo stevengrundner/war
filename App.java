@@ -41,12 +41,14 @@ public class App {
 	for (int i = 0; i < 26; i++) {
 		 Card player1Card = player1.flip();
 		 Card player2Card = player2.flip();
+		
 	
 	
 	System.out.println("Player 1 -----------------------------");
 	player1Card.describe();
 	System.out.println("Player 2 -----------------------------");
 	player2Card.describe();
+
 	
 
 		 
@@ -72,28 +74,22 @@ public class App {
 	System.out.println();
 	System.out.println();
 	System.out.println("Player 1 Final Score = " + player1.getScore());
+	System.out.println();
 	System.out.println("Player 2 Final Score = " + player2.getScore());
+	System.out.println();
 
 	
 //	2f)	Print the final score of each player and either “Player 1”, “Player 2”, or “Draw” depending on which 
 //		score is higher or if they are both the same.
 	
-	if (player1.getScore() > player2.getScore()) {
-		System.out.println("Player 1 Wins!");
-	}
-	
-	if (player1.getScore() < player2.getScore()) {
-		System.out.println("Player 2 Wins!");
-	}
-	if (player1.getScore() == player2.getScore()) {
-		System.out.println("It's A Draw!");
-	}
+		if (player1.getScore() > player2.getScore()) {
+			System.out.println("Player 1 Wins!");
+	}	if (player1.getScore() < player2.getScore()) {
+			System.out.println("Player 2 Wins!");
+	}	if (player1.getScore() == player2.getScore()) {
+			System.out.println("It's A Draw!");
+			}
 
-	
-	
-	
-	
-	
 	
 	
 	
@@ -110,30 +106,18 @@ public class App {
 //		is a tie.
 
 
-	} //end of main
+	
+	
+	
+	
+			} //end of main
 
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}
 
+	
+	
+		}
+	
 	
 
