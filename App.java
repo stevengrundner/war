@@ -44,13 +44,14 @@ public class App {
 		
 	
 	
-	System.out.println("Player 1 -----------------------------");
+	System.out.println("Player 1");
 	player1Card.describe();
-	System.out.println("Player 2 -----------------------------");
+	System.out.println();
+	System.out.println("Player 2");
 	player2Card.describe();
+//	3a)	using the Card describe() method when each card is flipped illustrates the game play.
 
 	
-
 		 
 //	2d)	compare the value of each card returned by the two player’s flip methods. Call the incrementScore 
 //	method on the player whose card has the higher value.
@@ -63,7 +64,19 @@ public class App {
 	} else if (player1Card.getValue() < player2Card.getValue()) {
 		player2.incrementScore();
 		}
-	}	
+	if (player1.getScore() > player2.getScore()) {
+		System.out.println("		Player 1 Wins!");
+}	if (player1.getScore() < player2.getScore()) {
+		System.out.println("		Player 2 Wins!");
+//}	if (player1.getScore() == player2.getScore()) {
+//		System.out.println("		It's A Draw!");
+		}
+	System.out.println("		Player 1 score is: " + player1.getScore());
+	System.out.println("		Player 2 score is: " + player2.getScore());
+	} 
+//	3b)	printing the winner of each turn adds interest. 
+//	3c)	printing the updated score after each turn shows game progression.
+
 	
 	
 //	2e) After the loop, compare the final score from each player. 
@@ -89,6 +102,9 @@ public class App {
 	}	if (player1.getScore() == player2.getScore()) {
 			System.out.println("It's A Draw!");
 			}
+	
+//		3d)	at the end of the game: print the final score of each player and the winner’s name or “Draw” if the result 
+//			is a tie.
 
 	
 	
@@ -96,14 +112,9 @@ public class App {
 //	Tips:  	Printing out information throughout the game adds value including easier debugging as you progress and 
 //		 	a better user experience.
 	
-//	3a)	using the Card describe() method when each card is flipped illustrates the game play.
 	
-//	3b)	printing the winner of each turn adds interest. 
 	
-//	3c)	printing the updated score after each turn shows game progression.
 	
-//	3d)	at the end of the game: print the final score of each player and the winner’s name or “Draw” if the result 
-//		is a tie.
 
 
 	
