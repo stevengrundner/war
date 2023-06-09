@@ -26,6 +26,7 @@ public class Player {
 			card.describe();
 		}
 	}
+	
 //	flip (removes and returns the top card of the hand)
 	
 	public Card flip() {

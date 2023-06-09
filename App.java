@@ -70,6 +70,7 @@ public class App {
 		System.out.println("		Player 2 Wins!");
 //}	if (player1.getScore() == player2.getScore()) {
 //		System.out.println("		It's A Draw!");
+//		for some reason this was printing "its a draw" when it wasn't , everything added up correctly though in terms of the score
 		}
 	System.out.println("		Player 1 score is: " + player1.getScore());
 	System.out.println("		Player 2 score is: " + player2.getScore());
@@ -105,18 +106,9 @@ public class App {
 	
 //		3d)	at the end of the game: print the final score of each player and the winner’s name or “Draw” if the result 
 //			is a tie.
-
-	
-	
 	
 //	Tips:  	Printing out information throughout the game adds value including easier debugging as you progress and 
 //		 	a better user experience.
-	
-	
-	
-	
-
-
 	
 	
 	
