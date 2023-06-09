@@ -1,9 +1,11 @@
 package week06FINALPROJECT;
 
+
 public class Card {
 	String name;
 	String suit;
 	int value;
+	
 	
 	Card(String name, String suit, int value) {
 		this.name = name;
@@ -11,6 +13,7 @@ public class Card {
 		this.value = value;
 	}
 
+	
 	public String getName() {
 		return name;
 	}
@@ -35,13 +38,12 @@ public class Card {
 		this.value = value;
 	}
 	
+		
 	public void describe() {
 		System.out.println(this.name + " of " + this.suit + ": " + this.value);
-		
 	}
 
-	
-	}
+}
 
 	
 	

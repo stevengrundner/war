@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Deck {
 	List <Card> cards = new ArrayList<Card>();
+
 	
 	Deck() {
 		String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
@@ -21,6 +22,7 @@ public class Deck {
 		}
 	}
 
+
 	public List<Card> getCards() {
 		return cards;
 	}
@@ -29,22 +31,22 @@ public class Deck {
 		this.cards = cards;
 	}
 	
+//	describe cards
 	public void describe() {
 		for (Card card : this.cards) {
 			card.describe();
 		}
 	}
 
+//	shuffle cards
 	public void shuffle() {
 		Collections.shuffle(this.cards);
 	}
 	
+//	draw cards
 	public Card draw() {
 		Card card = this.cards.remove(0);
 		return card;
-		
-	
-		
 	}
 
 	
